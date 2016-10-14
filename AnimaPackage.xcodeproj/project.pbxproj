@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6B8206131D5777CB00AE6F94 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B8206121D5777CB00AE6F94 /* AVKit.framework */; };
+		6B8206151D5777D000AE6F94 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B8206141D5777D000AE6F94 /* AVFoundation.framework */; };
+		6B8206171D5777D500AE6F94 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B8206161D5777D500AE6F94 /* MapKit.framework */; };
+		6B3A5F631D5532050000E45F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B3A5F621D5532050000E45F /* main.m */; };
+		6B3A5F661D5532050000E45F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B3A5F651D5532050000E45F /* AppDelegate.m */; };
+		6B3A5F6E1D5532050000E45F /* AnimaPackage.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B3A5F6D1D5532050000E45F /* AnimaPackage.xcassets */; };
+		B2CC20908F6608D43EA58A74 /* ANDataList.m in Sources */ = {isa = PBXBuildFile; fileRef = 60C67B764CFD548C60917888 /* ANDataList.m */; };
+		FFEF973E16751D28FF138486 /* ANVideoPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = B900B3916B48C1B8A6678BC8 /* ANVideoPlayer.m */; };
+		A2F9A973A65A03BB2ED9E6C6 /* ANTheme.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EE507E4A893BB68D9E5B201 /* ANTheme.m */; };
+		23840BD6BD6F7AF5ABBE0673 /* ANRSSParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 56276A83D3680D66F7D35468 /* ANRSSParser.m */; };
+		DDADA4DAFA3BA65452EE081E /* ANViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44F47129A53F9D5C5C87544E /* ANViewController.m */; };
+		2161488F7C99A3F58CDDDD55 /* UIView+Anima.m in Sources */ = {isa = PBXBuildFile; fileRef = 6324A925BEAC12C2E25450B4 /* UIView+Anima.m */; };
+		3C1A6ADE96C0620F3376A6C1 /* UIImageView+Anima.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B5248DBAFD3A27DEBF45404 /* UIImageView+Anima.m */; };
+		F03B6AEB2F9D9B598A807818 /* ANTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CAA1FED124DE3EFDA66D807 /* ANTabBarController.m */; };
+		A01BF2B697C7A9100D44F173 /* ANNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 512C7374119C46C28850A5B8 /* ANNavigationController.m */; };
+		A43B47876438D0C9F14F70E8 /* UIWebView+Anima.m in Sources */ = {isa = PBXBuildFile; fileRef = DB7F2A728C38B8FC5F4144B7 /* UIWebView+Anima.m */; };
+		3DA3DDC016DAB19BB0E8A04E /* ANGradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F0E2A8B92655C243C2690D2 /* ANGradientView.m */; };
+		45202DCE596223FBBA83BD4E /* NSString+Anima.m in Sources */ = {isa = PBXBuildFile; fileRef = F60DBF463F4053595DB75D76 /* NSString+Anima.m */; };
+		71AEA4C784A454DE19803E18 /* ANCSVParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 954A940BE31041D19918561F /* ANCSVParser.m */; };
+		D3F725736F2FE803B08B1B9E /* NSDictionary+Anima.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E6A5A81EBB8C925277C0B74 /* NSDictionary+Anima.m */; };
+		1AB8E024F90D10938406F43E /* MKMapView+Anima.m in Sources */ = {isa = PBXBuildFile; fileRef = F86CA7024C5D061D338DD6F4 /* MKMapView+Anima.m */; };
+		B2422254E03C44650D167864 /* UIView+AnimaConstraints.m in Sources */ = {isa = PBXBuildFile; fileRef = A26F894969994F3622041F3D /* UIView+AnimaConstraints.m */; };
+		8FB8EB0093B09095738F4040 /* AnimaPackageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D27501AFF9B0178C3C177226 /* AnimaPackageManager.m */; };
+		0F9766E7208E23FFB1B63E8D /* Screen1.m in Sources */ = {isa = PBXBuildFile; fileRef = 53C4A20E8D081842F74C6233 /* Screen1.m */; };
+		6B3A5F841D55CDC80000E45F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B3A5F821D55CDC80000E45F /* LaunchScreen.storyboard */; };
+		6B3A5F851D55CDC80000E45F /* AnimaPackage.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B3A5F831D55CDC80000E45F /* AnimaPackage.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6B3A5F5E1D5532050000E45F /* AnimaPackage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimaPackage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+        6B8206121D5777CB00AE6F94 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		6B8206141D5777D000AE6F94 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		6B8206161D5777D500AE6F94 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		6B3A5F621D5532050000E45F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6B3A5F641D5532050000E45F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6B3A5F651D5532050000E45F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6B3A5F6D1D5532050000E45F /* AnimaPackage.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = AnimaPackage.xcassets; sourceTree = "<group>"; };
+		6B3A5F721D5532050000E45F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE198F5CD251BB782445BD7D /* ANDataList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ANDataList.h"; sourceTree = "<group>"; };
+		1EA02AEA33F596E592A35DA9 /* UIView+AnimaConstraints.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+AnimaConstraints.h"; sourceTree = "<group>"; };
+		981FDE3C7AD389402A425224 /* UIWebView+Anima.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWebView+Anima.h"; sourceTree = "<group>"; };
+		F812A7E1036183CCB861816B /* NSString+Anima.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Anima.h"; sourceTree = "<group>"; };
+		8B83E302303E9948075CAB4C /* AnimaSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AnimaSDK.h"; sourceTree = "<group>"; };
+		C0E1FAD61B4FB3DABEB57595 /* ANVideoPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ANVideoPlayer.h"; sourceTree = "<group>"; };
+		4EC13DD6F9EA06ADADC981E5 /* ANTheme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ANTheme.h"; sourceTree = "<group>"; };
+		C5F28D1976C00E3DD476D7E9 /* ANRSSParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ANRSSParser.h"; sourceTree = "<group>"; };
+		24C32E8B2425B039119B23F0 /* ANGradientView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ANGradientView.h"; sourceTree = "<group>"; };
+		48B30099278C45F5A81AC615 /* ANViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ANViewController.h"; sourceTree = "<group>"; };
+		6684541A7AEB743756EF19FC /* NSDictionary+Anima.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Anima.h"; sourceTree = "<group>"; };
+		1DF18EE0A0DBE57C03F77294 /* ANTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ANTabBarController.h"; sourceTree = "<group>"; };
+		0284D9E3FB92714588B19145 /* ANMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ANMacros.h"; sourceTree = "<group>"; };
+		EA556FF620A54F0F5EF4B94D /* UIView+Anima.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Anima.h"; sourceTree = "<group>"; };
+		A4C2DBD3224A5C1BCB920944 /* UIImageView+Anima.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+Anima.h"; sourceTree = "<group>"; };
+		CFA6C6E8E31CBF1A667C952A /* ANCSVParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ANCSVParser.h"; sourceTree = "<group>"; };
+		39E5AB26C3EE6E64FF255AA3 /* ANProtocols.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ANProtocols.h"; sourceTree = "<group>"; };
+		C9F8DBCEF395F32120D9A2A6 /* ANNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ANNavigationController.h"; sourceTree = "<group>"; };
+		2ABB95B0CEFC47C622CEE7A0 /* MKMapView+Anima.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MKMapView+Anima.h"; sourceTree = "<group>"; };
+		55711A8C816D286E3A859309 /* Anima-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Anima-Bridging-Header.h"; sourceTree = "<group>"; };
+		60C67B764CFD548C60917888 /* ANDataList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ANDataList.m"; sourceTree = "<group>"; };
+		B900B3916B48C1B8A6678BC8 /* ANVideoPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ANVideoPlayer.m"; sourceTree = "<group>"; };
+		9EE507E4A893BB68D9E5B201 /* ANTheme.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ANTheme.m"; sourceTree = "<group>"; };
+		56276A83D3680D66F7D35468 /* ANRSSParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ANRSSParser.m"; sourceTree = "<group>"; };
+		44F47129A53F9D5C5C87544E /* ANViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ANViewController.m"; sourceTree = "<group>"; };
+		6324A925BEAC12C2E25450B4 /* UIView+Anima.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Anima.m"; sourceTree = "<group>"; };
+		3B5248DBAFD3A27DEBF45404 /* UIImageView+Anima.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+Anima.m"; sourceTree = "<group>"; };
+		2CAA1FED124DE3EFDA66D807 /* ANTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ANTabBarController.m"; sourceTree = "<group>"; };
+		512C7374119C46C28850A5B8 /* ANNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ANNavigationController.m"; sourceTree = "<group>"; };
+		DB7F2A728C38B8FC5F4144B7 /* UIWebView+Anima.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+Anima.m"; sourceTree = "<group>"; };
+		7F0E2A8B92655C243C2690D2 /* ANGradientView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ANGradientView.m"; sourceTree = "<group>"; };
+		F60DBF463F4053595DB75D76 /* NSString+Anima.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Anima.m"; sourceTree = "<group>"; };
+		954A940BE31041D19918561F /* ANCSVParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ANCSVParser.m"; sourceTree = "<group>"; };
+		8E6A5A81EBB8C925277C0B74 /* NSDictionary+Anima.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Anima.m"; sourceTree = "<group>"; };
+		F86CA7024C5D061D338DD6F4 /* MKMapView+Anima.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MKMapView+Anima.m"; sourceTree = "<group>"; };
+		A26F894969994F3622041F3D /* UIView+AnimaConstraints.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+AnimaConstraints.m"; sourceTree = "<group>"; };
+		16F20DAFA22AE6E6070B8D28 /* AnimaPackageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AnimaPackageManager.h"; sourceTree = "<group>"; };
+		8E8E5C6D64DC079B8766B17E /* Screen1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Screen1.h"; sourceTree = "<group>"; };
+		D27501AFF9B0178C3C177226 /* AnimaPackageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AnimaPackageManager.m"; sourceTree = "<group>"; };
+		53C4A20E8D081842F74C6233 /* Screen1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Screen1.m"; sourceTree = "<group>"; };
+		6B3A5F821D55CDC80000E45F /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6B3A5F831D55CDC80000E45F /* AnimaPackage.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = AnimaPackage.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6B3A5F5B1D5532050000E45F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B8206171D5777D500AE6F94 /* MapKit.framework in Frameworks */,
+				6B8206151D5777D000AE6F94 /* AVFoundation.framework in Frameworks */,
+				6B8206131D5777CB00AE6F94 /* AVKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6B3A5F551D5532050000E45F = {
+			isa = PBXGroup;
+			children = (
+				6B3A5F601D5532050000E45F /* AnimaPackage */,
+				6B3A5F781D5533A90000E45F /* Anima-iOS-SDK */,
+				6B8206181D5777DD00AE6F94 /* Frameworks */,
+				6B3A5F5F1D5532050000E45F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6B3A5F5F1D5532050000E45F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6B3A5F5E1D5532050000E45F /* AnimaPackage.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6B3A5F601D5532050000E45F /* AnimaPackage */ = {
+			isa = PBXGroup;
+			children = (
+                6B53AE841D6C875A008DF93D /* Resources */,
+                6B3A5F611D5532050000E45F /* Supporting Files */,
+                6B3A5F641D5532050000E45F /* AppDelegate.h */,
+				6B3A5F651D5532050000E45F /* AppDelegate.m */,
+				6B3A5F821D55CDC80000E45F /* LaunchScreen.storyboard */,
+				6B3A5F831D55CDC80000E45F /* AnimaPackage.storyboard */,
+				6B3A5F6D1D5532050000E45F /* AnimaPackage.xcassets */,
+				16F20DAFA22AE6E6070B8D28 /* AnimaPackageManager.h */,
+				D27501AFF9B0178C3C177226 /* AnimaPackageManager.m */,
+				8E8E5C6D64DC079B8766B17E /* Screen1.h */,
+				53C4A20E8D081842F74C6233 /* Screen1.m */,
+				);
+			path = AnimaPackage;
+			sourceTree = "<group>";
+		};
+		6B3A5F611D5532050000E45F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6B3A5F621D5532050000E45F /* main.m */,
+				6B3A5F721D5532050000E45F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6B3A5F781D5533A90000E45F /* Anima-iOS-SDK */ = {
+			isa = PBXGroup;
+			children = (
+				FE198F5CD251BB782445BD7D /* ANDataList.h */,
+				1EA02AEA33F596E592A35DA9 /* UIView+AnimaConstraints.h */,
+				60C67B764CFD548C60917888 /* ANDataList.m */,
+				B900B3916B48C1B8A6678BC8 /* ANVideoPlayer.m */,
+				9EE507E4A893BB68D9E5B201 /* ANTheme.m */,
+				981FDE3C7AD389402A425224 /* UIWebView+Anima.h */,
+				56276A83D3680D66F7D35468 /* ANRSSParser.m */,
+				F812A7E1036183CCB861816B /* NSString+Anima.h */,
+				44F47129A53F9D5C5C87544E /* ANViewController.m */,
+				6324A925BEAC12C2E25450B4 /* UIView+Anima.m */,
+				8B83E302303E9948075CAB4C /* AnimaSDK.h */,
+				3B5248DBAFD3A27DEBF45404 /* UIImageView+Anima.m */,
+				2CAA1FED124DE3EFDA66D807 /* ANTabBarController.m */,
+				512C7374119C46C28850A5B8 /* ANNavigationController.m */,
+				C0E1FAD61B4FB3DABEB57595 /* ANVideoPlayer.h */,
+				4EC13DD6F9EA06ADADC981E5 /* ANTheme.h */,
+				DB7F2A728C38B8FC5F4144B7 /* UIWebView+Anima.m */,
+				C5F28D1976C00E3DD476D7E9 /* ANRSSParser.h */,
+				7F0E2A8B92655C243C2690D2 /* ANGradientView.m */,
+				24C32E8B2425B039119B23F0 /* ANGradientView.h */,
+				48B30099278C45F5A81AC615 /* ANViewController.h */,
+				6684541A7AEB743756EF19FC /* NSDictionary+Anima.h */,
+				1DF18EE0A0DBE57C03F77294 /* ANTabBarController.h */,
+				F60DBF463F4053595DB75D76 /* NSString+Anima.m */,
+				954A940BE31041D19918561F /* ANCSVParser.m */,
+				0284D9E3FB92714588B19145 /* ANMacros.h */,
+				EA556FF620A54F0F5EF4B94D /* UIView+Anima.h */,
+				A4C2DBD3224A5C1BCB920944 /* UIImageView+Anima.h */,
+				CFA6C6E8E31CBF1A667C952A /* ANCSVParser.h */,
+				39E5AB26C3EE6E64FF255AA3 /* ANProtocols.h */,
+				C9F8DBCEF395F32120D9A2A6 /* ANNavigationController.h */,
+				2ABB95B0CEFC47C622CEE7A0 /* MKMapView+Anima.h */,
+				8E6A5A81EBB8C925277C0B74 /* NSDictionary+Anima.m */,
+				F86CA7024C5D061D338DD6F4 /* MKMapView+Anima.m */,
+				55711A8C816D286E3A859309 /* Anima-Bridging-Header.h */,
+				A26F894969994F3622041F3D /* UIView+AnimaConstraints.m */,
+				);
+			path = "Anima-iOS-SDK";
+			sourceTree = "<group>";
+		};
+        6B8206181D5777DD00AE6F94 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6B8206161D5777D500AE6F94 /* MapKit.framework */,
+				6B8206141D5777D000AE6F94 /* AVFoundation.framework */,
+				6B8206121D5777CB00AE6F94 /* AVKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+        6B53AE841D6C875A008DF93D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				);
+			name = Resources;
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6B3A5F5D1D5532050000E45F /* AnimaPackage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B3A5F751D5532050000E45F /* Build configuration list for PBXNativeTarget "AnimaPackage" */;
+			buildPhases = (
+				6B3A5F5A1D5532050000E45F /* Sources */,
+				6B3A5F5B1D5532050000E45F /* Frameworks */,
+				6B3A5F5C1D5532050000E45F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AnimaPackage;
+			productName = AnimaPackage;
+			productReference = 6B3A5F5E1D5532050000E45F /* AnimaPackage.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6B3A5F561D5532050000E45F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+			    LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = CompanyName;
+				TargetAttributes = {
+					6B3A5F5D1D5532050000E45F = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 6B3A5F591D5532050000E45F /* Build configuration list for PBXProject "AnimaPackage" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6B3A5F551D5532050000E45F;
+			productRefGroup = 6B3A5F5F1D5532050000E45F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6B3A5F5D1D5532050000E45F /* AnimaPackage */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6B3A5F5C1D5532050000E45F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B3A5F851D55CDC80000E45F /* AnimaPackage.storyboard in Resources */,
+				6B3A5F6E1D5532050000E45F /* AnimaPackage.xcassets in Resources */,
+				6B3A5F841D55CDC80000E45F /* LaunchScreen.storyboard in Resources */,
+                );
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6B3A5F5A1D5532050000E45F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			    6B3A5F661D5532050000E45F /* AppDelegate.m in Sources */,
+				6B3A5F631D5532050000E45F /* main.m in Sources */,
+				B2CC20908F6608D43EA58A74 /* ANDataList.m in Sources */,
+				FFEF973E16751D28FF138486 /* ANVideoPlayer.m in Sources */,
+				A2F9A973A65A03BB2ED9E6C6 /* ANTheme.m in Sources */,
+				23840BD6BD6F7AF5ABBE0673 /* ANRSSParser.m in Sources */,
+				DDADA4DAFA3BA65452EE081E /* ANViewController.m in Sources */,
+				2161488F7C99A3F58CDDDD55 /* UIView+Anima.m in Sources */,
+				3C1A6ADE96C0620F3376A6C1 /* UIImageView+Anima.m in Sources */,
+				F03B6AEB2F9D9B598A807818 /* ANTabBarController.m in Sources */,
+				A01BF2B697C7A9100D44F173 /* ANNavigationController.m in Sources */,
+				A43B47876438D0C9F14F70E8 /* UIWebView+Anima.m in Sources */,
+				3DA3DDC016DAB19BB0E8A04E /* ANGradientView.m in Sources */,
+				45202DCE596223FBBA83BD4E /* NSString+Anima.m in Sources */,
+				71AEA4C784A454DE19803E18 /* ANCSVParser.m in Sources */,
+				D3F725736F2FE803B08B1B9E /* NSDictionary+Anima.m in Sources */,
+				1AB8E024F90D10938406F43E /* MKMapView+Anima.m in Sources */,
+				B2422254E03C44650D167864 /* UIView+AnimaConstraints.m in Sources */,
+				8FB8EB0093B09095738F4040 /* AnimaPackageManager.m in Sources */,
+				0F9766E7208E23FFB1B63E8D /* Screen1.m in Sources */,
+				);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		6B3A5F731D5532050000E45F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				};
+			name = Debug;
+		};
+		6B3A5F741D5532050000E45F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				};
+			name = Release;
+		};
+		6B3A5F761D5532050000E45F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AnimaPackage/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.CompanyName.AnimaPackage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6B3A5F771D5532050000E45F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AnimaPackage/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.CompanyName.AnimaPackage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6B3A5F591D5532050000E45F /* Build configuration list for PBXProject "AnimaPackage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B3A5F731D5532050000E45F /* Debug */,
+				6B3A5F741D5532050000E45F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B3A5F751D5532050000E45F /* Build configuration list for PBXNativeTarget "AnimaPackage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B3A5F761D5532050000E45F /* Debug */,
+				6B3A5F771D5532050000E45F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6B3A5F561D5532050000E45F /* Project object */;
+}
